@@ -30622,7 +30622,7 @@ function _inheritsLoose(subClass, superClass) {
   subClass.prototype.constructor = subClass;
   subClass.__proto__ = superClass;
 }
-},{}],"node_modules/@babel/runtime/helpers/inheritsLoose.js":[function(require,module,exports) {
+},{}],"node_modules/mini-create-react-context/node_modules/@babel/runtime/helpers/inheritsLoose.js":[function(require,module,exports) {
 function _inheritsLoose(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype);
   subClass.prototype.constructor = subClass;
@@ -31776,7 +31776,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
 var index = _react.default.createContext || createReactContext;
 var _default = index;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","@babel/runtime/helpers/inheritsLoose":"node_modules/@babel/runtime/helpers/inheritsLoose.js","prop-types":"node_modules/prop-types/index.js","gud":"node_modules/gud/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js"}],"node_modules/@babel/runtime/helpers/esm/extends.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","@babel/runtime/helpers/inheritsLoose":"node_modules/mini-create-react-context/node_modules/@babel/runtime/helpers/inheritsLoose.js","prop-types":"node_modules/prop-types/index.js","gud":"node_modules/gud/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js"}],"node_modules/@babel/runtime/helpers/esm/extends.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37209,7 +37209,7 @@ var Fib = function Fib() {
     onChange: function onChange(event) {
       return setIndex(event.target.value);
     }
-  }), _react.default.createElement("button", null, "Submit")), _react.default.createElement("h3", null, "Indices that I have seen:"), renderSeenIndices(), _react.default.createElement("h3", null, "Calculated values:"), renderValues());
+  }), _react.default.createElement("button", null, "Submit")), _react.default.createElement("h3", null, "Indices used:"), renderSeenIndices(), _react.default.createElement("h3", null, "Calculated values:"), renderValues());
 };
 
 var _default = Fib;

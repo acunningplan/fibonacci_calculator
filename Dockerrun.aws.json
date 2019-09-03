@@ -2,16 +2,16 @@
   "AWSEBDockerrunVersion": 2,
   "containerDefinitions": [
     {
-      "name": "client",
-      "image": "jlfly12/multi-client",
-      "hostname": "client",
+      "name": "server",
+      "image": "jlfly12/multi-server",
+      "hostname": "api",
       "essential": false,
       "memory": 128
     },
     {
-      "name": "server",
-      "image": "jlfly12/multi-server",
-      "hostname": "api",
+      "name": "client",
+      "image": "jlfly12/multi-client",
+      "hostname": "client",
       "essential": false,
       "memory": 128
     },
